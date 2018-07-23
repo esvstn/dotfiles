@@ -7,3 +7,5 @@ function inst() {
         cp -v $1 ~/$1 || { echo "Can't do cp"; exit 1; }
     fi
 }
+
+inst .config
